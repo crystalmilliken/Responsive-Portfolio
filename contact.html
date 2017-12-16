@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="assets/images/profileIcon.png"/>
+        <script src="assets/scripts/main.js"></script>
+    </head>
+    <body>
+        <div>
+              <!--Hack for mobile/added this after the fact :(-->
+            <div id="nameHack">
+                    <h1>Crystal Milliken</h1>
+                </div>
+        <header>
+            <nav id="topMenu">
+                <div id="animate-area">
+                    <h1 >Crystal Milliken</h1>
+                </div>
+                <div id="menuLinks">
+                    <a href="./index.html">About</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div id="mainContent">
+            <main>
+                <h2>Contact</h2>
+                <div class="hBar"></div>
+               <form>
+                   <label for="name">Name</label><br>
+                   <input id="name" type="text" value=" John Smith" style="color: #adb6b9;"><br>
+                   <label for="email" >Email</label><br>
+                   <input id="email" type="text" value=" example@gmail.com"  style="color: #adb6b9;"><br>
+                   <label for="message" >Message</label><br>
+                   <textarea id="message"></textarea><br>
+                   <button id="submit">Submit</button>
+                </form>
+            </main>
+            <aside>
+                <div>
+                <h3>Connect with Me</h3>
+                    <div class="hBar"></div>
+               <a href="https://github.com/crystalmilliken"><img src="./assets/images/git.png" alt="git" id="git" onmouseover="changeSocialPic('git')" onmouseout="changeBack('git')"></a>
+                 <a href="https://www.linkedin.com/in/crystal-milliken-441b1355"><img src="./assets/images/linked.png" id="linked" alt="linked in" onmouseover="changeSocialPic('linked')" onmouseout="changeBack('linked')"></a>
+                 <a href="https://stackoverflow.com/users/8795702/crystal-milliken?tab=profile"><img id="stack" src="./assets/images/stack.png" alt="stackoverflow" onmouseover="changeSocialPic('stack')" 
+                 onmouseout="changeBack('stack')";></a></div>
+            </aside>
+        </div>
+            <footer>
+                <p>
+                Copyright &copy; 2017 Crystal Milliken
+                </p>
+            </footer>
+            </div>
+    </body>
+</html>
