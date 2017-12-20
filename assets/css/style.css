@@ -135,10 +135,9 @@ footer p{
     margin-left:3em;
 }
 #mainContent{
-    width:100%;
+    overflow:auto;
     margin-left:3em;
     margin-top:2em;
-    
 }
 #mainContent p{
     line-height: 2em;
